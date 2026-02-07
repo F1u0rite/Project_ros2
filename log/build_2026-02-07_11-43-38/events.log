@@ -1,0 +1,667 @@
+[0.000000] (-) TimerEvent: {}
+[0.000076] (orbslam3_rgbd_ros2) JobQueued: {'identifier': 'orbslam3_rgbd_ros2', 'dependencies': OrderedDict()}
+[0.000097] (orbslam3_rgbd_ros2) JobStarted: {'identifier': 'orbslam3_rgbd_ros2'}
+[0.002325] (orbslam3_rgbd_ros2) JobProgress: {'identifier': 'orbslam3_rgbd_ros2', 'progress': 'cmake'}
+[0.002521] (orbslam3_rgbd_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2', '-DCMAKE_PREFIX_PATH=/usr/local', '-DCMAKE_INSTALL_PREFIX=/home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2'], 'cwd': '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fluorite'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fluorite'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fluorite/AAE5303/orbslam3_ros2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/fluorite/miniforge3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fluorite'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fluorite'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fluorite/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fluorite:@/tmp/.ICE-unix/2045,unix/fluorite:/tmp/.ICE-unix/2045'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2895a7a_de66_47ae_8912_056c7480f328'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/fluorite/miniforge3'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/fluorite/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fluorite/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/fluorite/miniforge3/bin/mamba'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.023026] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.043648] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.046177] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.070608] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.073269] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.073403] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.073594] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.074807] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.099892] (-) TimerEvent: {}
+[0.101921] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.104786] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.104922] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.105148] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.108755] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.162737] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.201452] (-) TimerEvent: {}
+[0.204718] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.230099] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.233025] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.238169] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.244984] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.252876] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.277520] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.279204] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301567] (-) TimerEvent: {}
+[0.313378] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.325668] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.341679] (orbslam3_rgbd_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.347400] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.377705] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.377929] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.402570] (-) TimerEvent: {}
+[0.404926] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.405565] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.433931] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.450029] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.456676] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.458989] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.469044] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.475426] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.502771] (-) TimerEvent: {}
+[0.520738] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.527093] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.527159] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.527189] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.527216] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.527241] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\n'}
+[0.527265] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.527290] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\n'}
+[0.527314] (orbslam3_rgbd_ros2) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/aarch64-linux-gnu/libGL.so\n'}
+[0.527344] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\n'}
+[0.527368] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.527392] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\n'}
+[0.527413] (orbslam3_rgbd_ros2) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/aarch64-linux-gnu/libOpenGL.so\n'}
+[0.527438] (orbslam3_rgbd_ros2) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/aarch64-linux-gnu/libGLX.so\n'}
+[0.527490] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\n'}
+[0.527515] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.527539] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.527563] (orbslam3_rgbd_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.527587] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  CMakeLists.txt:26 (find_package)\n'}
+[0.527610] (orbslam3_rgbd_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.527634] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.527658] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[0.530018] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[0.531009] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Linking Pangolin via variable: Pangolin_LIBRARIES\n'}
+[0.557477] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.569200] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.572658] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2\n'}
+[0.577241] (orbslam3_rgbd_ros2) CommandEnded: {'returncode': 0}
+[0.577525] (orbslam3_rgbd_ros2) JobProgress: {'identifier': 'orbslam3_rgbd_ros2', 'progress': 'build'}
+[0.577806] (orbslam3_rgbd_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2', '--', '-j6', '-l6'], 'cwd': '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fluorite'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fluorite'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fluorite/AAE5303/orbslam3_ros2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/fluorite/miniforge3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fluorite'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fluorite'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fluorite/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fluorite:@/tmp/.ICE-unix/2045,unix/fluorite:/tmp/.ICE-unix/2045'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2895a7a_de66_47ae_8912_056c7480f328'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/fluorite/miniforge3'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/fluorite/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fluorite/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/fluorite/miniforge3/bin/mamba'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.592596] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rgbd_node\x1b[0m\n'}
+[0.594535] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/stereo_ir_node.dir/src/stereo_ir_node.cc.o\x1b[0m\n'}
+[0.602867] (-) TimerEvent: {}
+[0.638209] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'[ 75%] Built target rgbd_node\n'}
+[0.704979] (-) TimerEvent: {}
+[0.806301] (-) TimerEvent: {}
+[0.906507] (-) TimerEvent: {}
+[1.007854] (-) TimerEvent: {}
+[1.110182] (-) TimerEvent: {}
+[1.215401] (-) TimerEvent: {}
+[1.320605] (-) TimerEvent: {}
+[1.425822] (-) TimerEvent: {}
+[1.531049] (-) TimerEvent: {}
+[1.631924] (-) TimerEvent: {}
+[1.737146] (-) TimerEvent: {}
+[1.842353] (-) TimerEvent: {}
+[1.947579] (-) TimerEvent: {}
+[2.048072] (-) TimerEvent: {}
+[2.150775] (-) TimerEvent: {}
+[2.251036] (-) TimerEvent: {}
+[2.356261] (-) TimerEvent: {}
+[2.460888] (-) TimerEvent: {}
+[2.563371] (-) TimerEvent: {}
+[2.622489] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.622595] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.622630] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.622657] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.622683] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.622708] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.622742] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.622768] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.622793] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.622817] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.622842] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.622871] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.622897] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.622922] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.622946] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.622970] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.622995] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.623019] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.623042] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.623067] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.623090] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.623115] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.623139] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.623163] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.623188] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.623212] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.623236] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.623261] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.623285] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.630833] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.630946] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.630984] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.631010] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.631035] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.631058] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.631082] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.631106] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.631129] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.631152] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.631177] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.631204] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.631229] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.631256] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.631279] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.631304] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.631328] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.631352] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.631375] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.631399] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.631422] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.631446] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.631469] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.631494] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.631518] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.631542] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.631566] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.631589] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.631613] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.631637] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.631660] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.631684] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.631707] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.631731] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.631754] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.631779] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.631803] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.631826] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.631850] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.631874] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.631901] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.631925] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.631949] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.631972] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.631995] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.632019] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.632044] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.632068] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.632091] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.632115] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.632138] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.632161] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.632185] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.632211] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.632235] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.632258] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.632283] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.632311] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.663595] (-) TimerEvent: {}
+[2.768801] (-) TimerEvent: {}
+[2.771968] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.772062] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.772099] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.772126] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.772152] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.772177] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.772201] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.772226] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.772250] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.772274] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.772298] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.772335] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[2.772367] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.772398] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.772423] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772447] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.772472] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.772495] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.772520] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.772544] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.772569] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.772593] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.772618] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.772641] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.772666] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.772690] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.772714] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.772738] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.772762] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.772786] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.772810] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.781499] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.781567] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.781605] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.781633] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.781658] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.781683] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.781707] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.781732] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.781756] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.781779] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.781804] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.781829] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[2.781854] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.781881] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.781907] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.781931] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.781955] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.781979] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.782003] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.782028] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.782060] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.782082] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.782107] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.782127] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.782155] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.782175] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.782201] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.782222] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.782244] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.782268] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.782293] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.792109] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.792185] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.792216] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.792241] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.792265] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.792289] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.792313] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.792336] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.792360] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.792383] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.792407] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.792437] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[2.792467] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.792497] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.792522] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.792548] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.792572] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.792595] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.792620] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.792643] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.792666] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.792690] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.792714] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.792738] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.792761] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.792793] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.792816] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.792839] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.792863] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.792886] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.792909] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.792932] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.792957] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.792980] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.793003] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.793028] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.793051] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.793075] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.793098] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.793122] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.793145] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.793169] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.793195] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.793219] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.793242] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.793266] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.793290] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.793314] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.793337] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.793361] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.793384] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.793408] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.793431] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.793454] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.793477] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.793502] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.793525] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.793548] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.793573] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.793598] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.816668] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.816762] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.816791] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.816815] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.816839] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.816862] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.816886] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.816910] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.816933] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.816957] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.816981] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.817007] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[2.817031] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.817060] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.817085] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.817110] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.817134] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.817158] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.817181] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.817204] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.817228] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.817251] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.817275] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.817300] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.817325] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.817349] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.817372] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.817395] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.817419] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.817445] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.817468] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.821469] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.821516] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.821544] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.821568] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.821592] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.821615] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.821639] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.821662] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.821685] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.821709] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.821732] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.821758] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.821783] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.821806] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.821832] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.821855] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.821879] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.821902] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.821927] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.821950] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.821974] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.821997] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.822020] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.822043] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.822081] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.822106] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.822130] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.822155] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.822178] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.842009] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.842115] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.842147] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.842172] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.842202] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.842226] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.842251] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.842275] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.842298] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.842321] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.842347] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.842373] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[2.842396] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.842422] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.842446] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.842470] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.842493] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.842517] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.842541] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.842564] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.842589] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.842613] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.842637] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.842660] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.842684] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.842708] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.842731] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.842754] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.842778] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.842802] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.842825] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.842850] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.842874] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.842897] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.842921] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.842945] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.842968] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.842990] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.843014] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.843037] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.843061] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.843085] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.843112] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.843136] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.843159] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.843182] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.843206] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.843229] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.843252] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.843276] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.843298] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.843321] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.843344] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.843370] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.843393] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.843419] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.843447] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.843473] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.843497] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.843520] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.870596] (-) TimerEvent: {}
+[2.912105] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[2.912194] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.912223] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.912247] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.912271] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.912295] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.912318] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.912346] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.912370] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.912393] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.912417] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.912441] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[2.912465] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.912493] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[2.912517] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912543] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.912566] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.912589] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.912615] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.912638] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.912661] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.912685] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.912708] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.912735] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.912760] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.912784] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.912807] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.912831] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.912851] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.912875] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.912895] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.923513] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.923659] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.923690] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.923717] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.923742] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.923765] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.923789] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.923813] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.923842] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.923867] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.923894] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.923917] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[2.923938] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.923970] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.923992] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.924020] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.924040] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.924068] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.924091] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.924115] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.924140] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.924160] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.924181] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.924209] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.924233] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.924255] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.924283] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.924335] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.924389] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.924478] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.924520] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.924549] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.924579] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.924718] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.924778] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.924837] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.924867] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.924888] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.925085] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.925280] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.925324] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.925352] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.925382] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.925407] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.925432] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.925456] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.925487] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.925512] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.925553] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.925584] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.925623] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.925647] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.925672] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.925697] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.925721] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.925745] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.925769] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.925793] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.925817] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.925847] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.939563] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.939667] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.939701] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.939727] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.939752] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.939781] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.939805] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.939829] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.939853] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.939876] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.939901] (orbslam3_rgbd_ros2) StderrLine: {'line': b'/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.939926] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[2.939950] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.939977] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[2.940004] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.940028] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.940052] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.940077] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.940101] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.940125] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.940148] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.940172] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.940195] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.940219] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.940243] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.940267] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.940290] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.940314] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.940342] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.940366] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.940390] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.944490] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[2.944533] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[2.944561] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[2.944585] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.944609] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.944633] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.944657] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.944683] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.944706] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.944730] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.944754] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.944783] (orbslam3_rgbd_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[2.944807] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.944832] (orbslam3_rgbd_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[2.944855] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[2.944879] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[2.944903] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[2.944927] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[2.944950] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[2.944974] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[2.944998] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[2.945022] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[2.945046] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[2.945069] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[2.945093] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[2.945117] (orbslam3_rgbd_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/stereo_ir_node.cc:19\x1b[m\x1b[K:\n'}
+[2.945140] (orbslam3_rgbd_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.945164] (orbslam3_rgbd_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[2.945188] (orbslam3_rgbd_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.971363] (-) TimerEvent: {}
+[3.074468] (-) TimerEvent: {}
+[3.178695] (-) TimerEvent: {}
+[3.283891] (-) TimerEvent: {}
+[3.389112] (-) TimerEvent: {}
+[3.490099] (-) TimerEvent: {}
+[3.590931] (-) TimerEvent: {}
+[3.696153] (-) TimerEvent: {}
+[3.797907] (-) TimerEvent: {}
+[3.899923] (-) TimerEvent: {}
+[4.003123] (-) TimerEvent: {}
+[4.104701] (-) TimerEvent: {}
+[4.209916] (-) TimerEvent: {}
+[4.311686] (-) TimerEvent: {}
+[4.416912] (-) TimerEvent: {}
+[4.522138] (-) TimerEvent: {}
+[4.622361] (-) TimerEvent: {}
+[4.727588] (-) TimerEvent: {}
+[4.832808] (-) TimerEvent: {}
+[4.938032] (-) TimerEvent: {}
+[5.038843] (-) TimerEvent: {}
+[5.144078] (-) TimerEvent: {}
+[5.244644] (-) TimerEvent: {}
+[5.349867] (-) TimerEvent: {}
+[5.455101] (-) TimerEvent: {}
+[5.555871] (-) TimerEvent: {}
+[5.661089] (-) TimerEvent: {}
+[5.763123] (-) TimerEvent: {}
+[5.863447] (-) TimerEvent: {}
+[5.968661] (-) TimerEvent: {}
+[6.069017] (-) TimerEvent: {}
+[6.174241] (-) TimerEvent: {}
+[6.279497] (-) TimerEvent: {}
+[6.384736] (-) TimerEvent: {}
+[6.485465] (-) TimerEvent: {}
+[6.590683] (-) TimerEvent: {}
+[6.693737] (-) TimerEvent: {}
+[6.798976] (-) TimerEvent: {}
+[6.900948] (-) TimerEvent: {}
+[7.006153] (-) TimerEvent: {}
+[7.108228] (-) TimerEvent: {}
+[7.212055] (-) TimerEvent: {}
+[7.314600] (-) TimerEvent: {}
+[7.417531] (-) TimerEvent: {}
+[7.520365] (-) TimerEvent: {}
+[7.625572] (-) TimerEvent: {}
+[7.728055] (-) TimerEvent: {}
+[7.832926] (-) TimerEvent: {}
+[7.933137] (-) TimerEvent: {}
+[8.036612] (-) TimerEvent: {}
+[8.137066] (-) TimerEvent: {}
+[8.240752] (-) TimerEvent: {}
+[8.346010] (-) TimerEvent: {}
+[8.450136] (-) TimerEvent: {}
+[8.494474] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stereo_ir_node\x1b[0m\n'}
+[8.550307] (-) TimerEvent: {}
+[8.650632] (-) TimerEvent: {}
+[8.755549] (-) TimerEvent: {}
+[8.858160] (-) TimerEvent: {}
+[8.963359] (-) TimerEvent: {}
+[9.012999] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'[100%] Built target stereo_ir_node\n'}
+[9.016291] (orbslam3_rgbd_ros2) CommandEnded: {'returncode': 0}
+[9.016755] (orbslam3_rgbd_ros2) JobProgress: {'identifier': 'orbslam3_rgbd_ros2', 'progress': 'install'}
+[9.019304] (orbslam3_rgbd_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2'], 'cwd': '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:en'), ('USER', 'fluorite'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fluorite'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/fluorite/AAE5303/orbslam3_ros2/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2045'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/fluorite/miniforge3'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fluorite'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fluorite'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fluorite/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fluorite:@/tmp/.ICE-unix/2045,unix/fluorite:/tmp/.ICE-unix/2045'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2895a7a_de66_47ae_8912_056c7480f328'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/fluorite/miniforge3'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/fluorite/miniforge3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/fluorite/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('MAMBA_EXE', '/home/fluorite/miniforge3/bin/mamba'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/fluorite/miniforge3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=344f2a5f51a59a0e1c4f7cea6986b1b2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.021271] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.021372] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/lib/orbslam3_rgbd_ros2/rgbd_node\n'}
+[9.021414] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/lib/orbslam3_rgbd_ros2/stereo_ir_node\n'}
+[9.023056] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/ament_index/resource_index/package_run_dependencies/orbslam3_rgbd_ros2\n'}
+[9.023111] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/ament_index/resource_index/parent_prefix_path/orbslam3_rgbd_ros2\n'}
+[9.023203] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/environment/ament_prefix_path.sh\n'}
+[9.023236] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/environment/ament_prefix_path.dsv\n'}
+[9.023329] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/environment/path.sh\n'}
+[9.023395] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/environment/path.dsv\n'}
+[9.023426] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/local_setup.bash\n'}
+[9.023493] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/local_setup.sh\n'}
+[9.023540] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/local_setup.zsh\n'}
+[9.023684] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/local_setup.dsv\n'}
+[9.023717] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Installing: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/package.dsv\n'}
+[9.023745] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/ament_index/resource_index/packages/orbslam3_rgbd_ros2\n'}
+[9.023789] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/cmake/orbslam3_rgbd_ros2Config.cmake\n'}
+[9.023817] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/cmake/orbslam3_rgbd_ros2Config-version.cmake\n'}
+[9.023848] (orbslam3_rgbd_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2/share/orbslam3_rgbd_ros2/package.xml\n'}
+[9.024274] (orbslam3_rgbd_ros2) CommandEnded: {'returncode': 0}
+[9.030070] (orbslam3_rgbd_ros2) JobEnded: {'identifier': 'orbslam3_rgbd_ros2', 'rc': 0}
+[9.030571] (-) EventReactorShutdown: {}

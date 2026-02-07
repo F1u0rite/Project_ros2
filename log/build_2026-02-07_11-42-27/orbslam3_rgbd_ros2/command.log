@@ -1,0 +1,2 @@
+Invoking command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2': /usr/bin/cmake --build /home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2 -- -j6 -l6
+Invoked command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2' returned '2': /usr/bin/cmake --build /home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2 -- -j6 -l6

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8e0b923a36ef2a31efef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orbslam3_rgbd_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "orbslam3_rgbd_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbslam3_rgbd_ros2_uninstall-ec14dfdabf605cc91f5b.json",
+					"name" : "orbslam3_rgbd_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_node-6eb2163bf207e3286fae.json",
+					"name" : "rgbd_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_ir_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_ir_node-9e8a8aea1c47aad46d8c.json",
+					"name" : "stereo_ir_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-935a39a1e7f611814b44.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2",
+		"source" : "/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

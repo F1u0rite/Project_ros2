@@ -1,0 +1,33 @@
+[0.003s] Invoking command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2': /usr/bin/cmake /home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2 -DCMAKE_PREFIX_PATH=/usr/local -DCMAKE_INSTALL_PREFIX=/home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.175s] -- Detecting CXX compile features
+[0.175s] -- Detecting CXX compile features - done
+[0.180s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.180s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.180s]   has asked CMake to find a package configuration file provided by
+[0.180s]   "ament_cmake", but CMake did not find one.
+[0.180s] 
+[0.180s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.180s]   any of the following names:
+[0.180s] 
+[0.180s]     ament_cmakeConfig.cmake
+[0.180s]     ament_cmake-config.cmake
+[0.180s] 
+[0.180s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.180s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.180s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.180s]   has been installed.
+[0.180s] 
+[0.181s] [0m
+[0.181s] -- Configuring incomplete, errors occurred!
+[0.181s] See also "/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2/CMakeFiles/CMakeOutput.log".
+[0.182s] Invoked command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2' returned '1': /usr/bin/cmake /home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2 -DCMAKE_PREFIX_PATH=/usr/local -DCMAKE_INSTALL_PREFIX=/home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2

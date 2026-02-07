@@ -1,0 +1,2 @@
+Invoking command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2': /usr/bin/cmake /home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2 -DCMAKE_PREFIX_PATH=/usr/local -DCMAKE_INSTALL_PREFIX=/home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2
+Invoked command in '/home/fluorite/AAE5303/orbslam3_ros2/build/orbslam3_rgbd_ros2' returned '1': /usr/bin/cmake /home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2 -DCMAKE_PREFIX_PATH=/usr/local -DCMAKE_INSTALL_PREFIX=/home/fluorite/AAE5303/orbslam3_ros2/install/orbslam3_rgbd_ros2
