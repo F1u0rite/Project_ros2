@@ -1,7 +1,0 @@
-[01m[K/home/fluorite/AAE5303/orbslam3_ros2/src/orbslam3_rgbd_ros2/src/rgbd_node.cc:20:10:[m[K [01;31m[Kfatal error: [m[KSystem.h: 没有那个文件或目录
-   20 | #include [01;31m[K"System.h"[m[K   // ORB-SLAM3 System
-      |          [01;31m[K^~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/rgbd_node.dir/build.make:76：CMakeFiles/rgbd_node.dir/src/rgbd_node.cc.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/rgbd_node.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
